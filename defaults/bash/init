@@ -6,6 +6,12 @@ if command -v zoxide &> /dev/null; then
   eval "$(zoxide init $OMAKUB_SHELL)"
 fi
 
+if command -v atuin &> /dev/null; then
+  export ATUIN_NOBIND="true"
+  eval "$(atuin init $OMAKUB_SHELL)"
+  bindkey '^r' _atuin_search_widget
+fi
+
 if command -v starship &> /dev/null; then
   eval "$(starship init $OMAKUB_SHELL)"
 fi

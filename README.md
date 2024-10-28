@@ -17,7 +17,9 @@ From a Terminal run:
 
     wget -qO- https://raw.githubusercontent.com/akitaonrails/omakub-mj/master/boot.sh | bash
 
-And follow the instructions on screen.
+And follow the instructions on screen. 
+
+Pay attention because this procedure will install [Atuin - Magic History](https://atuin.sh/), and it will prompt you to either register or login.
 
 ## Contributing to the documentation
 
