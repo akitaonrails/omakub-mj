@@ -21,6 +21,18 @@ And follow the instructions on screen.
 
 Pay attention because this procedure will install [Atuin - Magic History](https://atuin.sh/), and it will prompt you to either register or login.
 
+# Zellij + NeoVIM
+
+The original Omakub has a bug: Zellij's shortcuts don't play nice with NeoVim. Both share the same modifier "Ctrl". It's just not possible to navigate among Neovim's pane using "Ctrl + (h,j,j,l)", for example.
+
+In order to fix this, I merged the [Shoukoo's Zellij loves NeoVim](https://shoukoo.github.io/blog/zellij-love-neovim/) suggestion. 
+
+It makes Zellij slightly more cumbersome to use but it makes NeoVim work properly within Zellij.
+
+Zellij has "modes", similar to Vim's Normal or Visual modes. This patch adds a "tmux" mode.
+
+For example, in DHH's version, to split Zellij with a new horizontal pane, we could just press "Ctrl P D". Now we first have to first "Ctrl f" to change to "tmux mode", then press "P D". Keep that in mind.
+
 ## Contributing to the documentation
 
 Please help us improve Omakub's documentation on the [basecamp/omakub-site repository](https://github.com/basecamp/omakub-site).
