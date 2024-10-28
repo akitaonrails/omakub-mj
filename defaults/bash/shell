@@ -1,8 +1,16 @@
 # History control
-shopt -s histappend
-HISTCONTROL=ignoreboth
-HISTSIZE=32768
-HISTFILESIZE="${HISTSIZE}"
+if command -v shopt &> /dev/null; then
+  shopt -s histappend
+  HISTCONTROL=ignoreboth
+  HISTSIZE=32768
+  HISTFILESIZE="${HISTSIZE}"
+fi
+# Use powerline
+USE_POWERLINE="true"
+# Has weird character width
+# Example:
+#    is not a diamond
+HAS_WIDECHARS="false"
 
 # Autocompletion
 [ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion

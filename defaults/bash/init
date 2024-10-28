@@ -1,9 +1,13 @@
 if command -v mise &> /dev/null; then
-  eval "$(mise activate bash)"
+  eval "$(mise activate $OMAKUB_SHELL)"
 fi
 
 if command -v zoxide &> /dev/null; then
-  eval "$(zoxide init bash)"
+  eval "$(zoxide init $OMAKUB_SHELL)"
+fi
+
+if command -v starship &> /dev/null; then
+  eval "$(starship init $OMAKUB_SHELL)"
 fi
 
 if command -v fzf &> /dev/null; then
@@ -13,4 +17,8 @@ if command -v fzf &> /dev/null; then
   if [[ -f /usr/share/doc/fzf/examples/key-bindings.bash ]]; then
     source /usr/share/doc/fzf/examples/key-bindings.bash
   fi
+fi
+
+if command -v fastfetch &> /dev/null; then
+  fastfetch
 fi

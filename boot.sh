@@ -11,9 +11,8 @@ echo -e "$ascii_art"
 echo "=> Omakub is for fresh Manjaro GNOME 24 or newer installations only!"
 echo -e "\nBegin installation (or abort with ctrl+c)..."
 
-command -v yay >/dev/null 2>&1 || sudo pacman -S --noconfirm yay
+command -v yay >/dev/null 2>&1 || sudo pacman -S --noconfirm yay git
 yay -Syyuu --noconfirm
-command -v git >/dev/null 2>&1 || sudo pacman -S --noconfirm git
 
 echo "Cloning Omakub..."
 rm -rf ~/.local/share/omakub
