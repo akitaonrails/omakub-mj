@@ -6,6 +6,7 @@ trap 'echo "Omakub installation failed! You can retry by running: source ~/.loca
 
 # Check the distribution name and version and abort if incompatible
 source ~/.local/share/omakub/install/check-version.sh
+source ~/.local/share/omakub/install/terminal/required/app-gum.sh >/dev/null
 
 # Ask for app choices
 echo "Get ready to make a few choices..."
