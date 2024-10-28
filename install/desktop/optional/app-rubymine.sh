@@ -1,1 +1,1 @@
-sudo snap install rubymine --classic
+yay -S rubymine --noconfirm

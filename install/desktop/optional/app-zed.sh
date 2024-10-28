@@ -1,1 +1,1 @@
-curl https://zed.dev/install.sh | sh
+yay -S zed --noconfirm

@@ -1,1 +1,1 @@
-sudo apt install -y gnome-tweak-tool
+yay -S gnome-tweaks --noconfirm

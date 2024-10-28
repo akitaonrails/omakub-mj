@@ -1,9 +1,4 @@
-gpg --keyserver keyserver.ubuntu.com --recv 0xfaf1020699503176
-gpg --export 0xfaf1020699503176 | sudo tee /usr/share/keyrings/ulauncher-archive-keyring.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/ulauncher-archive-keyring.gpg] http://ppa.launchpad.net/agornostal/ulauncher/ubuntu noble main" | sudo tee /etc/apt/sources.list.d/ulauncher-noble.list
-
-sudo apt update -y
-sudo apt install -y ulauncher
+yay -S ulauncher --noconfirm
 
 # Start ulauncher to have it populate config before we overwrite
 mkdir -p ~/.config/autostart/

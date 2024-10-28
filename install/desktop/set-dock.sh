@@ -14,7 +14,7 @@ apps=(
 	"Activity.desktop"
 	"Docker.desktop"
 	"Omakub.desktop"
-	"1password.desktop"
+	"Bitwarden.desktop"
 	"org.gnome.Settings.desktop"
 	"org.gnome.Nautilus.desktop"
 	"localsend_app.desktop"

@@ -1,1 +1,1 @@
-sudo apt install -y vlc
+flatpak install -y org.videolan.VLC

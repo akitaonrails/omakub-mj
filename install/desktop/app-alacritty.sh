@@ -1,5 +1,5 @@
 # Alacritty is a GPU-powered and highly extensible terminal. See https://alacritty.org/
-sudo apt install -y alacritty
+yay -S alacritty --noconfirm
 mkdir -p ~/.config/alacritty
 cp ~/.local/share/omakub/configs/alacritty.toml ~/.config/alacritty/alacritty.toml
 cp ~/.local/share/omakub/configs/alacritty/shared.toml ~/.config/alacritty/shared.toml

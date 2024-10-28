@@ -1,2 +1,2 @@
-# FIXME: Get this out of snap
-sudo snap install pinta
+# Edit images and paint digitally
+flatpak install -y com.github.PintaProject.Pinta
