@@ -1,1 +1,6 @@
-yay -S lazydocker-bin fakeroot --noconfirm
+# Arch under WSL2 already comes with fakeroot-tcp
+if ![ pacman -Q fakeroot-tcp ] &>/dev/null; then
+  sudo pacman -S --needed fakeroot
+fi
+
+yay -S lazydocker-bin --noconfirm
