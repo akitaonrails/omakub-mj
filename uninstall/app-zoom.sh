@@ -1,1 +1,1 @@
-sudo apt remove -y zoom
+flatpak uninstall -y us.zoom.Zoom

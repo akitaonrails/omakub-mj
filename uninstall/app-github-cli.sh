@@ -1,1 +1,1 @@
-sudo apt remove -y gh
+yay -Rns --noconfirm github-cli || true

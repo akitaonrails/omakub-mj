@@ -1,1 +1,1 @@
-sudo apt remove -y flameshot
+flatpak uninstall -y org.flameshot.Flameshot

@@ -1,1 +1,1 @@
-sudo apt remove -y steam steam-launcher
+yay -Rns --noconfirm steam || true

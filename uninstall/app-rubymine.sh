@@ -1,1 +1,1 @@
-sudo snap remove rubymine
+yay -Rns --noconfirm rubymine || true

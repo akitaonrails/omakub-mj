@@ -1,1 +1,1 @@
-sudo apt remove -y xournalpp
+yay -Rns --noconfirm xournalpp || true

@@ -1,1 +1,1 @@
-sudo apt remove -y fastfetch
+yay -Rns --noconfirm fastfetch || true

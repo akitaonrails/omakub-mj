@@ -1,0 +1,1 @@
+yay -Rns --noconfirm rust

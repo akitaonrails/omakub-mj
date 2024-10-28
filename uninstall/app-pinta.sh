@@ -1,1 +1,1 @@
-sudo snap remove pinta
+flatpak uninstall -y com.github.PintaProject.Pinta

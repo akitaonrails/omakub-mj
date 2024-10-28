@@ -1,1 +1,1 @@
-sudo apt remove -y localsend
+flatpak uninstall -y org.localsend.localsend_app
