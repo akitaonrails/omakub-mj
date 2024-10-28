@@ -1,2 +1,2 @@
 # Sync files across machines using https://dropbox.com
-yay -S nautilus-dropbox --noconfirm
+yay -S --needed nautilus-dropbox --noconfirm

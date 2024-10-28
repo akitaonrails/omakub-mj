@@ -1,3 +1,3 @@
-yay -S emacs --noconfirm
+yay -S --needed emacs --noconfirm
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 ~/.config/emacs/bin/doom install

@@ -1,1 +1,1 @@
-yay -S xournalpp --noconfirm
+yay -S --needed xournalpp --noconfirm

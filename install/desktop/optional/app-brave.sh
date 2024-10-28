@@ -1,1 +1,1 @@
-yay -S brave-browser --noconfirm
+yay -S --needed brave-browser --noconfirm

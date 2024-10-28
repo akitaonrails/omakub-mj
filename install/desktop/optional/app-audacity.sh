@@ -1,1 +1,1 @@
-flatpak install -y flathub org.audacityteam.Audacity
+flatpak install --or-update -y flathub org.audacityteam.Audacity

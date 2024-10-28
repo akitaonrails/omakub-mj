@@ -1,4 +1,4 @@
-flatpak install -y io.typora.Typora
+flatpak install --or-update -y io.typora.Typora
 
 # Add iA Typora theme
 mkdir -p ~/.config/Typora/themes

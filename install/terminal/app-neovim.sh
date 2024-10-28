@@ -1,4 +1,4 @@
-yay -S neovim --noconfirm
+yay -S --needed neovim --noconfirm
 
 # Install luarocks and tree-sitter-cli to resolve lazyvim :checkhealth warnings
 sudo apt install -y luarocks tree-sitter-cli

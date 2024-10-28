@@ -1,1 +1,1 @@
-yay -S mise --noconfirm
+yay -S --needed mise --noconfirm

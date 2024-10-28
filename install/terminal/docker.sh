@@ -2,7 +2,7 @@
 # in case of WSL2, it should be installed first, through Docker Desktop installer, outside of WSL2
 if ![ command -v docker ]; then
   # Install Docker engine and standard plugins
-  yay -S docker docker-compose --noconfirm
+  yay -S --needed docker docker-compose --noconfirm
 
   # Give this user privileged Docker access
   sudo usermod -aG docker ${USER}

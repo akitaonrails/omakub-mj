@@ -1,4 +1,4 @@
-yay -S python-pipx --noconfirm
+yay -S --needed python-pipx --noconfirm
 pipx install gnome-extensions-cli --system-site-packages
 
 # Pause to assure user is ready to accept confirmations

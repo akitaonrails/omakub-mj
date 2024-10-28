@@ -1,2 +1,2 @@
 # Play games from https://store.steampowered.com/
-yay -S steam --noconfirm
+yay -S --needed steam --noconfirm

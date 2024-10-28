@@ -1,1 +1,1 @@
-yay -S github-cli --noconfirm
+yay -S --needed github-cli --noconfirm

@@ -1,1 +1,1 @@
-yay -S rubymine --noconfirm
+yay -S --needed rubymine --noconfirm

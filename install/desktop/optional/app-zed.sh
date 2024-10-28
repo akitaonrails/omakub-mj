@@ -1,1 +1,1 @@
-yay -S zed --noconfirm
+yay -S --needed zed --noconfirm

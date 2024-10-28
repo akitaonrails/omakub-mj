@@ -1,1 +1,1 @@
-flatpak install -y org.videolan.VLC
+flatpak install --or-update -y org.videolan.VLC

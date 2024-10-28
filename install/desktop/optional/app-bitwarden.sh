@@ -1,1 +1,1 @@
-flatpak install -y com.bitwarden.desktop
+flatpak install --or-update -y com.bitwarden.desktop

@@ -1,1 +1,1 @@
-yay -S lazygit --noconfirm
+yay -S --needed lazygit --noconfirm
