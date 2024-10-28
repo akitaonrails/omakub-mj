@@ -8,4 +8,5 @@ git config --global alias.pl pull
 git config --global alias.ps push
 git config --global alias.ft fetch
 git config --global alias.d diff
+git config --global alias.a add
 git config --global pull.rebase true

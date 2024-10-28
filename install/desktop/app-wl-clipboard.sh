@@ -1,2 +1,3 @@
 # Provides a system clipboard interface for Neovim under Wayland
-yay -S wl-clipboard --noconfirm
+# also installs xsel in case there is no wayland support
+yay -S wl-clipboard xsel --noconfirm
