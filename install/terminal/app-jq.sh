@@ -1,1 +1,1 @@
-yay -Sy --noconfirm jq
+yay -S --needed --noconfirm jq
