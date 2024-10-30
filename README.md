@@ -15,7 +15,7 @@ There is an Arch version for WSL2 on Windows, called [ArchWSL](https://github.co
 
 From a Terminal run:
 
-    wget -qO- https://raw.githubusercontent.com/akitaonrails/omakub-mj/master/boot.sh | bash
+    wget -qO- https://raw.githubusercontent.com/akitaonrails/omakub-mj/stable/boot.sh | bash
 
 And follow the instructions on screen. 
 
