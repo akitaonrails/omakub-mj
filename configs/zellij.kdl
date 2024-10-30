@@ -211,4 +211,8 @@ keybinds clear-defaults=true {
     renamepane {
         bind "esc" { UndoRenamePane; SwitchToMode "pane"; }
     }
+
+    scroll {
+        bind "Enter" { Copy; SwitchToMode "Normal"; }
+    }
 }
