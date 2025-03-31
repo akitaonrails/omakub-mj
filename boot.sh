@@ -1,10 +1,10 @@
 set -e
 
-ascii_art='   ____  __  ______    __ ____  ______     __  ___    __
-  / __ \/  |/  /   |  / //_/ / / / __ )   /  |/  /   / /
- / / / / /|_/ / /| | / ,< / / / / __  |  / /|_/ /_  / / 
-/ /_/ / /  / / ___ |/ /| / /_/ / /_/ /  / /  / / /_/ /  
-\____/_/  /_/_/  |_/_/ |_\____/_____/  /_/  /_/\____/   
+ascii_art='   ____  __  ______    __ ____  ______     __   ______
+  / __ \/  |/  /   |  / //_/ / / / __ )   / /  / /_/ /
+ / / / / /|_/ / /| | / ,< / / / / __  |  / /  / ____/
+/ /_/ / /  / / ___ |/ /| / /_/ / /_/ /  / /__/ /
+\____/_/  /_/_/  |_/_/ |_\____/_____/  /____/_/
 '
 
 echo -e "$ascii_art"
@@ -16,7 +16,7 @@ yay -Syyuu --noconfirm
 
 echo "Cloning Omakub..."
 rm -rf ~/.local/share/omakub
-git clone https://github.com/akitaonrails/omakub.git ~/.local/share/omakub >/dev/null
+git clone https://github.com/lpbborges/omakub-lp.git ~/.local/share/omakub >/dev/null
 if [[ $OMAKUB_REF != "master" ]]; then
   cd ~/.local/share/omakub
   git fetch origin "${OMAKUB_REF:-stable}" && git checkout "${OMAKUB_REF:-stable}"
@@ -24,4 +24,4 @@ if [[ $OMAKUB_REF != "master" ]]; then
 fi
 
 echo "Installation starting..."
-source ~/.local/share/omakub/install.sh
+# source ~/.local/share/omakub/install.sh
