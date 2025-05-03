@@ -1,5 +1,6 @@
 export OMAKUB_SHELL="bash"
 source ~/.local/share/omakub/defaults/bash/shell
 source ~/.local/share/omakub/defaults/bash/aliases
+source ~/.local/share/omakub/defaults/bash/functions
 source ~/.local/share/omakub/defaults/bash/prompt
 source ~/.local/share/omakub/defaults/bash/init
