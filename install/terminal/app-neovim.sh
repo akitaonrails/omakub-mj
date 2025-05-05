@@ -4,9 +4,8 @@ yay -S --needed neovim --noconfirm
 if [ ! -d "$HOME/.config/nvim" ]; then
   # Use LazyVim
   git clone https://github.com/LazyVim/starter ~/.config/nvim
-
-  # Disable update notification popup in starter config
-  sed -i 's/checker = { enabled = true }/checker = { enabled = true, notify = false }/g' ~/.config/nvim/lua/config/lazy.lua
+  # Remove the .git folder, so you can add it to your own repo later
+  rm -rf ~/.config/nvim/.git
 
   # Make everything match the terminal transparency
   mkdir -p ~/.config/nvim/plugin/after
@@ -15,8 +14,11 @@ if [ ! -d "$HOME/.config/nvim" ]; then
   # Default to Tokyo Night theme
   cp ~/.local/share/omakub/themes/tokyo-night/neovim.lua ~/.config/nvim/lua/plugins/theme.lua
 
-  # Enable default extras
-  cp ~/.local/share/omakub/configs/neovim/lazyvim.json ~/.config/nvim/lazyvim.json
+  # Turn off animated scrolling
+  cp ~/.local/share/omakub/configs/neovim/snacks-animated-scrolling-off.lua ~/.config/nvim/lua/plugins/
+
+  # Turn off relative line numbers
+  echo "vim.opt.relativenumber = false" >>~/.config/nvim/lua/config/options.lua
 fi
 
 # Replace desktop launcher with one running inside Alacritty
