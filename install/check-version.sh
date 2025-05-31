@@ -8,10 +8,10 @@ fi
 
 . /etc/os-release
 
-if [ "$ID" != "manjaro" ]; then
+if [[ "$ID" != "arch" && "$ID_LIKE" != "arch" ]]; then
   echo "$(tput setaf 1)Error: OS requirement not met"
   echo "You are currently running: $ID"
-  echo "OS required: Manjaro GNOME 24 or higher"
+  echo "OS required: any Arch-based distribution (e.g. Manjaro, Arch, EndeavourOS)"
   echo "Installation stopped."
   exit 1
 fi
